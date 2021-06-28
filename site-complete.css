@@ -58,14 +58,12 @@ main {
   grid-template-columns: repeat(7, 1fr);
 }
 
-
 #form-holder {
   display: flex;
   flex: 0 0 150px;
   flex-direction: column;
   padding: 1em;
 }
-
 
 #overlay {
   background-image: url(./images/connect-four.png);
@@ -90,8 +88,6 @@ main {
 .is-invisible {
   visibility: hidden;
 }
-
-
 
 .token {
   box-sizing: border-box;
